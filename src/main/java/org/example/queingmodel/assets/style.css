@@ -1,0 +1,32 @@
+.header-text {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: 600;
+    -fx-fill: linear-gradient(to right, #00c6ff, #0072ff);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 1, 0.0, 0, 1);
+    -fx-padding: 5 10px;
+}
+
+.split-pane .split-pane-divider {
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-background-radius: 1px;
+    -fx-width: 1px; /* Thickness of the divider */
+    -fx-padding: 0 .5px; /* Space around the divider */
+    -fx-height: 50%;
+}
+
+.footer-copyright {
+    -fx-font-family: 'Arial', 'Helvetica', sans-serif;
+    -fx-background-color: #222222;
+    -fx-text-fill: #ffffff; /* Correct */
+    -fx-padding: 4px 8px !important;
+    -fx-border-color: transparent;
+    -fx-border-width: 0.5px 0 0 0; /* Top border only */
+    -fx-font-size: 12px;
+    -fx-font-family: "Open Sans", sans-serif;
+    -fx-text-alignment: center; /* Correct property for text alignment */
+    -fx-opacity: 0.5;
+}
